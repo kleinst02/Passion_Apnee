@@ -1,0 +1,106 @@
+@font-face{
+  font-family: "Aquawax";
+  src: url("Fonts/aquawax/Aquawax Medium Trial.ttf");
+}
+
+header
+{
+	display: flex;
+	justify-content: center;
+}
+
+body
+{
+	display: block;
+	width: 1280px;
+	margin: auto;
+}	
+
+a:hover
+{
+   font-weight: bold;
+}
+
+a
+{
+	text-decoration: none; color: white;
+}
+
+#menu
+{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	width: 1280px;
+	height: 45px;
+	background: linear-gradient(#062152, 60%, white);
+	font-size: 1.5em;
+	font-family: Aquawax;
+	text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+.element
+{
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.corps
+{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ background-color:#FAFAFA;
+ width:700px;
+ }
+
+fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #123DC8;
+ }
+
+legend {
+ font-weight:bold
+ }
+
+ input, textarea, select {
+ padding:3px;
+ border:1px solid #D9850D;
+ border-radius:5px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+
+ input[type=checkbox] {
+ background-color:transparent;
+ border: none;
+ width:10px;
+ box-shadow: none;
+ }
+
+input[type=submit], {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ }
+
+
+footer
+{
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(white, 40%, #062152);
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}

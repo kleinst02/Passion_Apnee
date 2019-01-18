@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Apnée Passion</title>
+    <meta charset="UTF8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+    <link rel="stylesheet" href="contact.css"/>
+  </head>
+
+    <body>
+  	
+<header>
+  <img src="images/banniere.jpg" alt="Bannière">
+    </header>
+
+    <div id="menu">
+      <div class="element"><li><a href="./main.html">Accueil</a></li></div>
+      <div class="element"><li><a href="./disciplines.html">Disciplines</a></li></div>
+      <div class="element"><li><a href="./champions.html">Champions</a></li></div>
+      <div class="element"><li>Contact</li></div>
+        </div>
+
+        <br />
+    <div class="corps">
+      
+    <a href="http://apnee.ffessm.fr"><img src="images/logo.jpg" alt="FFESSM"></a>
+
+      <form method="post" action="traitement.php">
+       <fieldset>
+        <legend>Vos coordonnées</legend>
+        <p>
+          <label for="Nom">Nom :</label>
+          <input type="text" name="nom" id="nom"/>
+         </p>
+
+        <p>
+          <label for="Prénom">Prénom :</label>
+          <input type="text" name="nom" id="nom"/>
+        </p>
+
+        <p>
+          <label for="email">Votre E-mail :</label>
+          <input type="E-mail" name="email" id="email" required/>
+        </p>
+
+        <p>
+          <label for="naissance">Votre date de naissance :</label>
+          <input type="date" name="naissance" id="naissance"/>
+        </p>
+       </fieldset>
+
+       <fieldset>
+        <legend>Vous et l'apnée</legend>
+        <p>
+          Quelle est votre pratique de l'apnée ? <br />
+          <input type="checkbox" name="newbie" id="newbie" /><label for="newbie">Newbie</label><br />
+          <input type="checkbox" name="occasionelle" id="occasionelle" /><label for="occasionelle">Occasionnelle</label><br />
+          <input type="checkbox" name="souvent" id="souvent" /><label for="souvent">Souvent</label><br />
+          <input type="checkbox" name="warrior" id="warrior" /><label for="warrior">Warrior</label><br />
+        </p>
+        <p>Votre message :</p>
+
+        <textarea rows="8" cols="80"></textarea>
+         <br />
+         <input type="submit" value="Envoyer"/>
+       </fieldset>
+      </form>
+    </div>
+<br>
+      <footer>
+    	<p>Copyright© 2019 Will_Free_Diver productions - Tous droits réservés</p>
+      </footer>
+    </body>
+
+  </html>

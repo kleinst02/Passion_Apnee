@@ -1,0 +1,106 @@
+@font-face{
+  font-family: "holiday_4";
+  src: url("Fonts/holiday_4/HolidayFree.otf");
+ }
+ 
+@font-face{
+  font-family: "Aquawax";
+  src: url("Fonts/aquawax/Aquawax Medium Trial.ttf");
+}
+
+
+header
+{
+	display: flex;
+	justify-content: center;
+}
+
+body
+{
+	display: block;
+	width: 1280px;
+	margin: auto;
+}	
+
+a:hover
+{
+   font-weight: bold;
+}
+
+a
+{
+	text-decoration: none; color: white;
+}
+
+#menu
+{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	width: 1280px;
+	height: 45px;
+	background: linear-gradient(#062152, 60%, white);
+	font-size: 1.5em;
+	font-family: Aquawax;
+	text-shadow: 2px 2px 2px black;
+	color: white;
+}
+
+.element
+{
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.corps
+{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Trebuchet MS;
+	font-size: 1.6em;
+}
+
+.citation
+{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	text-indent: 30px;
+	justify-content: center;
+	margin-left: 0px;
+	margin-right: 25px;
+	height: 339px;
+	width: 500px;
+	font-style: italic;
+}
+
+.sign
+{
+	font-family: holiday_4;
+	font-size:1.5em;
+	justify-content: center;
+	text-align: right;
+	margin-right: 25px;
+}
+
+.photo
+{
+	box-shadow: 5px 0 5px -5px #333;
+}
+
+footer
+{
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(white, 40%, #062152);
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+

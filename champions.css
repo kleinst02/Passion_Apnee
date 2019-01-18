@@ -1,0 +1,177 @@
+@font-face{
+  font-family: "Aquawax";
+  src: url("Fonts/aquawax/Aquawax Medium Trial.ttf");
+}
+
+@font-face{
+  font-family: "Familiar";
+  src: url("Fonts/familiar/Familiar Pro-Bold.otf");
+}
+
+header
+{
+	display: flex;
+	justify-content: center;
+}
+
+body
+{
+	display: block;
+	width: 1280px;
+	margin: auto;
+}	
+
+a:hover
+{
+   font-weight: bold;
+}
+
+a
+{
+	text-decoration: none; color: white;
+}
+
+#menu
+{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	width: 1280px;
+	height: 45px;
+	background: linear-gradient(#062152, 60%, white);
+	font-size: 1.5em;
+	font-family: Aquawax;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+.element
+{
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Familiar;
+	font-size: 2.3em;
+	color: #EC6F27;
+	text-shadow: 2px 2px 2px black;
+}
+
+h2
+{
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	text-shadow: 2px 2px 2px black;
+}
+
+
+.corps
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.bloc_nery
+{
+	background-image: url("images/degrade-bleu.jpg");
+	display: flex;
+	flex-direction: row;
+	text-align: justify;
+	text-indent: 30px;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.nery
+{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.photo1
+{
+	box-shadow: 5px 0 5px -5px #333;
+}
+
+.bloc_bourchis
+{
+	background-image: url("images/degrade-bleu.jpg");
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: justify;
+	text-indent: 30px;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.bourchis
+{
+	margin-left: 25px;
+	margin-right: 0px;
+}
+
+.photo2
+{
+	box-shadow: 5px 0 5px -5px #333;
+	margin-right: 25px;
+}
+
+.bloc_boeri
+{
+	background-image: url("images/degrade-bleu.jpg");
+	display: flex;
+	flex-direction: row;
+	text-align: justify;
+	text-indent: 30px;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.boeri
+{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.photo3
+{
+	box-shadow: 5px 0 5px -5px #333;
+}
+
+.bloc_asso
+{
+	background-image: url("images/degrade-bleu.jpg");
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: justify;
+	text-indent: 30px;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.asso
+{
+	margin-left: 25px;
+	margin-right: 0px;
+}
+
+.photo4
+{
+	box-shadow: 5px 0 5px -5px #333;
+	margin-right: 25px;
+}
+
+footer
+{
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(white, 40%, #062152);
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
