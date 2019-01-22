@@ -89,13 +89,31 @@ h2
 
 .nery
 {
-	margin-left: 25px;
+	margin-left: 450px;
 	margin-right: 25px;
 }
 
 .photo1
 {
+  position:relative;
+  height:425px;
+  margin:0 auto;
+}
+
+.photo1 img
+{
+	position:absolute;
+  left:25px;
 	box-shadow: 5px 0 5px -5px #333;
+	-webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.photo1 img.top:hover
+{
+  opacity: 0;
 }
 
 .bloc_bourchis
@@ -112,13 +130,30 @@ h2
 .bourchis
 {
 	margin-left: 25px;
-	margin-right: 0px;
+	margin-right: 450px;
 }
 
 .photo2
 {
+  position:relative;
+  height:400px;
+  margin:0 auto;
+}
+
+.photo2 img
+{
+	position:absolute;
+  right:25px;
 	box-shadow: 5px 0 5px -5px #333;
-	margin-right: 25px;
+	-webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.photo2 img.top:hover
+{
+  opacity: 0;
 }
 
 .bloc_boeri
@@ -134,13 +169,31 @@ h2
 
 .boeri
 {
-	margin-left: 25px;
+	margin-left: 450px;
 	margin-right: 25px;
 }
 
 .photo3
 {
+  position:relative;
+  height:410px;
+  margin:0 auto;
+}
+
+.photo3 img
+{
+	position:absolute;
+  left:25px;
 	box-shadow: 5px 0 5px -5px #333;
+	-webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.photo3 img.top:hover
+{
+  opacity: 0;
 }
 
 .bloc_asso
@@ -157,13 +210,30 @@ h2
 .asso
 {
 	margin-left: 25px;
-	margin-right: 0px;
+	margin-right: 450px;
 }
 
 .photo4
 {
+  position:relative;
+  height:410px;
+  margin:0 auto;
+}
+
+.photo4 img
+{
+	position:absolute;
+  right:25px;
 	box-shadow: 5px 0 5px -5px #333;
-	margin-right: 25px;
+	-webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.photo4 img.top:hover
+{
+  opacity: 0;
 }
 
 footer

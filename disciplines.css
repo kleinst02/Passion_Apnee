@@ -94,11 +94,22 @@ h2
 	text-indent: 30px;
 }
 
-.photo1
+.photo1 div img
 {
 	box-shadow: 5px 0 5px -5px #333;
 	margin-right: 25px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+
+.photo1 div:hover img
+{
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
 
 .bloc_dynamique
 {
@@ -118,10 +129,20 @@ h2
 	text-indent: 30px;
 }
 
-.photo2
+.photo2 div img
 {
 	box-shadow: 5px 0 5px -5px #333;
 	margin-left: 25px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.photo2 div:hover img
+{
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .bloc_dynamique_sans
@@ -142,10 +163,20 @@ h2
 	text-indent: 30px;
 }
 
-.photo3
+.photo3 div img
 {
 	box-shadow: 5px 0 5px -5px #333;
 	margin-right: 25px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.photo3 div:hover img
+{
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .bloc_immersion
@@ -166,10 +197,20 @@ h2
 	text-indent: 30px;
 }
 
-.photo4
+.photo4 div img
 {
 	box-shadow: 5px 0 5px -5px #333;
 	margin-left: 25px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.photo4 div:hover img
+{
+    -webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .bloc_poidsconstant
@@ -191,10 +232,20 @@ h2
 	text-indent: 30px;
 }
 
-.photo5
+.photo5 div img
 {
 	box-shadow: 5px 0 5px -5px #333;
 	margin-right: 25px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.photo5 div:hover img
+{
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .bloc_poidsvariable
@@ -215,10 +266,20 @@ h2
 	text-indent: 30px;
 }
 
-.photo6
+.photo6 div img
 {
 	box-shadow: 5px 0 5px -5px #333;
 	margin-left: 25px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.photo6 div:hover img
+{
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 footer

@@ -55,7 +55,13 @@ a
 	align-items: center;
 	margin-right: 80px;
 	margin-left: 80px;
+}	
+
+.logo
+{
+	border: solid 1px #123DC8;
 }
+
 
 form {
  display: flex;
